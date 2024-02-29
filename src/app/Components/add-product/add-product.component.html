@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <h1>add-product </h1>
+        <div>Code: <input class="form-control" [(ngModel)]="productDto.productCode" type="text"></div>
+        <div>Name: <input class="form-control" [(ngModel)]="productDto.productName" type="text"></div>
+        <div>Price: <input class="form-control" [(ngModel)]="productDto.price" type="number"></div>
+        <button class="btn btn-primary" (click)="AddProduct(productDto)">Add Product</button>
+
+
+    </div>
+</div>

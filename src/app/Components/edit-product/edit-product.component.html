@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="row">
+        <p>edit-product </p>
+        <div><input class="form-control" [(ngModel)]="myProduct.id" type="number" hidden></div>
+        <div>Code: <input class="form-control" [(ngModel)]="myProduct.productCode" type="text"></div>
+        <div>Name: <input class="form-control" [(ngModel)]="myProduct.productName" type="text"></div>
+        <div>Price: <input class="form-control" [(ngModel)]="myProduct.price" type="number"></div>
+        <button class="btn btn-primary" (click)="UpdateProduct(myProduct)">Update Product</button>
+
+    </div>
+</div>
